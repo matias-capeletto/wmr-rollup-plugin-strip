@@ -1,0 +1,24 @@
+{
+	"name": "wmr-rollup-plugin-strip-issue",
+	"license": "MIT",
+	"author": "Matias Capeletto",
+	"scripts": {
+		"start": "wmr",
+		"build": "wmr build --prerender",
+		"serve": "wmr serve"
+	},
+	"eslintConfig": {
+		"extends": "preact"
+	},
+	"alias": {
+		"react": "preact/compat",
+		"react-dom": "preact/compat"
+	},
+	"dependencies": {
+		"preact-iso": "^0.2.0"
+	},
+	"devDependencies": {
+		"@rollup/plugin-strip": "2.0.0",
+		"wmr": "1.1.0"
+	}
+}
